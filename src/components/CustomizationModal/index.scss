@@ -1,0 +1,28 @@
+div.customization-modal{
+    div.customization-modal-item {
+        div.customization-modal-checkbox {
+            div.checkbox-item {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+            }
+            
+        }
+        div.customization-modal-radio {
+            div.radio-item {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+            }
+        }
+    }
+
+    div.customization-modal-submit {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

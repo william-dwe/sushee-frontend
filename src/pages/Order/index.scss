@@ -1,0 +1,50 @@
+section.order-history {
+    padding-top: 10vh;
+    width: auto;
+    background-image: url("https://res.cloudinary.com/dgr6o89ym/image/upload/v1672109205/sources/wallpaperflare.com_wallpaper_wtqler.jpg");
+    background-position: center;
+    background-color: gray;
+    background-blend-mode: multiply;
+
+    h1 {
+        margin: 15vh;
+        text-align: center;
+        color: white;
+    }
+    
+    table.order-history {
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        background-color: white;
+        tr:nth-child(even) {
+            background-color: #eee4d6;
+        }
+        
+        div.menu-reviews {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            div.menu-review-title {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.5rem;
+    
+                h5 {
+                    color: black;
+                    margin-bottom: 0;
+                }
+            }
+            
+            div.menu-review-content {
+                padding: 0.5rem 1rem;
+                text-align: justify;
+            }
+        }
+
+           
+    }
+}

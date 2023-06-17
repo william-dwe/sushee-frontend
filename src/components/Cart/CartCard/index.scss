@@ -1,0 +1,61 @@
+@import '../../../variables.scss';
+
+
+div.cart_card {
+    margin: 2.5%;
+    padding: 2.5%;
+
+    .row {
+        width: 100%;
+    }
+
+    img.card-img {
+        padding: 3%;
+    }
+
+    .card-body {
+        h5.card-title {
+            color: $base-black;
+            font-size: 2rem;
+            margin-bottom: 0;
+
+            span.promo {
+                font-size: 0.875rem;
+            }
+        }
+        
+        p.card-text {
+            font-size: 1rem;
+        }
+
+        div.quantity {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            p.quantity {
+                font-size: 0.75rem;
+                padding-top: 0;   
+            }
+        }
+
+        div.price {
+            .prev-price {
+                font-size: 0.75rem;
+                text-decoration: line-through;
+            }
+            
+            .current-price {
+                font-size: 1rem;
+            }
+        }
+
+        div.options {
+            .options-item {
+                font-size: 0.5rem;
+            }
+        }
+    }
+}

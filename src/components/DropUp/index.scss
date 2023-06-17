@@ -1,0 +1,35 @@
+div.drop-up {
+    position: relative;
+    display: inline-block;
+
+    div.drop-up-content {
+        display: none;
+        position: absolute;
+        bottom: 2.25rem;
+        right: 0;
+        background-color: #f1f1f1;
+        width: 20vw;
+        z-index: 1;
+
+        button {
+            color: black;
+            background-color: #f1f1f1;
+            text-align: left;
+            border: none;
+            width: 100%;
+            padding: 1rem;
+            text-decoration: none;
+            display: block;
+
+            &:hover {
+                padding-left: 2rem;
+                transition: 0.2s;
+                background-color: #ddd
+            }
+        }
+    }
+
+    &:hover .drop-up-content{
+        display: block;
+    }
+}

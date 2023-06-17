@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+$base-white: #FFF;
+$base-white-secondary: #F5F5F5;
+$base-black: #000;
+$base-grey: #737373;
+$base-dark-grey: #4F4F4F;
+$base-orange: #FFC107;
+
+$border-default: 1px solid $base-dark-grey;
+$border-roundness-default: 5px;
+
+$desktop-margin: 0 15vw;
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a {
+    text-decoration: none !important;
+    color: #ffb03b;
+}
+
+a:hover {
+    color: #ffc56e;
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Satisfy", sans-serif;
+    color: $base-white
+}

@@ -1,0 +1,23 @@
+div.cart {
+    position: relative;
+
+    button.cart-toggle {
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    span.notification {
+        position: absolute;
+        top: -5%;
+        right: -5%;
+        width: 1rem;
+        height: 1rem;
+        font-size: 0.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: red;
+        color: white;
+    }
+}

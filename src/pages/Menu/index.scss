@@ -1,0 +1,50 @@
+
+div.carousel-inner {
+    div.carousel-item {
+        img {
+            filter: brightness(50%);
+        }
+    
+        div.carousel-caption {
+            bottom: 40%;
+        
+            h5 {
+                font-size: 3rem;
+                color: #FFC107;
+
+            }
+            p {
+                font-size: 1.25rem;
+            }
+
+            
+        }
+    }
+}
+
+
+section.promotion {
+    h2 {
+        text-align: center;
+        color: black;
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+}
+
+section.menu {
+    h2 {
+        text-align: center;
+        color: black;
+        font-size: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    input.page {
+        width: 5vw;
+    }
+    input.search {
+        width: 15vw;
+    }
+}

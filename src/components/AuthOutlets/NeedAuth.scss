@@ -1,0 +1,54 @@
+.modal-toggle {
+    z-index: 10;
+    margin: 10rem;
+}
+
+.modal-need-auth {
+    position: fixed;
+    z-index: 1;
+    left: 0;    
+    top: 0;    
+    transition: 0.5s;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+
+    .modal-content {
+        margin: 25vh auto;
+        text-align: center;
+        
+        .modal-content-items {
+            margin: auto;
+            width: 40vw;
+            padding: 2rem;
+            border-radius: 1rem;
+            background-color: rgba(0,0,0,0.7);
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            div.buttons {
+                display: flex;
+                flex-direction: rows;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+            }
+        }
+       
+
+        &.modal-show {
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+    
+        &.modal-hide {
+            width: 0;
+            height: 0;
+            display: none;
+        }
+    }
+
+    
+}
