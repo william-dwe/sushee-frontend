@@ -1,0 +1,38 @@
+div.promo-item {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 3fr 1fr 2fr;
+    gap: 0 0.25rem;
+    align-items: center;
+    justify-content: space-around;
+    grid-auto-flow: column;
+
+    h2 {
+        margin: 0;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: baseline;
+
+        .prev-price {
+            font-size: 0.75rem;
+            text-decoration: line-through;
+        }
+        
+        .current-price {
+            font-size: 1rem;
+        }
+    }
+
+    .rating {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.25rem;
+    }
+}

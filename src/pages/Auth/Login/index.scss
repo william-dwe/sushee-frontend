@@ -1,0 +1,34 @@
+@import '../../../variables.scss';
+
+section.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background-image: url("https://res.cloudinary.com/dgr6o89ym/image/upload/v1672109205/sources/wallpaperflare.com_wallpaper_wtqler.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $base-grey;
+    background-blend-mode: multiply;
+
+    .content {
+        padding-top: 20vh;
+
+        h1 {
+            text-align: center;
+            color: $base-white;
+            font-size: 5rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $base-black;
+            gap: 2.5vh 0;
+        }
+    }
+}

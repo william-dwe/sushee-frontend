@@ -1,0 +1,23 @@
+section.admin-table {
+    h1 {
+        margin-top: 15vh;
+        text-align: center;
+        color: white;
+    }
+
+    div.button-container {
+        text-align: center;
+        margin: 2vh;
+    }
+    
+    table.admin-table {
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        background-color: white;
+        tr:nth-child(even) {
+            background-color: #eee4d6;
+        }
+        
+    }
+}

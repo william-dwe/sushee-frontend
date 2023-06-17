@@ -1,0 +1,66 @@
+@import '../../variables.scss';
+
+
+div.card {
+    img.card-img {
+        margin-top: 2vh;
+        margin-bottom: 0;
+        transition: 0.5s;
+    }
+
+    &:hover {
+        img.card-img {
+            margin-top: 0;
+            margin-bottom: 2vh;         
+        }
+    }
+
+    div.card-footer {
+        width: 100%;
+
+        h5 {
+            color: $base-black;
+            margin-bottom: 0;
+        }
+    
+        p {
+            margin-bottom: 0;
+        }
+
+        div.ratingFavoriteCart {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            justify-content: space-between;
+            align-items: center;
+    
+            div.ratingFavorite {
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+
+                div.rating {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 0.25rem;
+        
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+        
+                div.favorite {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 0.25rem;
+        
+                    p {
+                        margin-bottom: 0;
+                    }
+                }   
+            }
+        }
+    }
+}

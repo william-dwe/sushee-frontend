@@ -1,0 +1,93 @@
+.cart-wrapper {
+    .cart-offcanvas {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 4;
+        height: 100vh;
+        overflow-x: hidden;
+        transition: 0.5s;
+        background-color: black;
+
+        .content {
+            .cart-toggle {
+                position: fixed;
+                margin: 2.5%;
+            }
+
+            h2 {
+                text-align: center;
+                padding: 7.5% 0 5% 0;
+                margin-bottom: 0;
+            }
+
+            hr {
+                color: white;
+                font-weight: bold;
+            }
+
+            p.total {
+                text-align: left;
+                color: white;
+                margin-left: 5%;
+                margin-bottom: 15vh;
+            }
+
+            p.note {
+                text-align: center;
+                color: white;
+            }
+
+            div.coupon {
+                text-align: center;
+            }
+
+            div.cart-footer {
+                position: fixed;
+                right: 1%;
+                bottom: 1%;
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+            }
+        }
+    
+        &.cart-open {
+            width: 30vw;
+    
+            .content {
+                display: block;
+            }
+        }
+    
+        &.cart-close {
+            width: 0;
+    
+            .content {
+                display: none
+            }
+        }
+    }
+
+    .main-content {
+        transition: 0.5s;
+
+        &.cart-open {
+            margin-right: 30vw;
+
+            nav {
+                transition: 0.5s;
+                width: calc(100% - 30vw);
+            }
+        }
+    
+        &.cart-close {
+            margin-right: 0;
+
+            nav {
+                transition: 0.5s;
+                width: 100%;
+            }
+        }
+    }
+}

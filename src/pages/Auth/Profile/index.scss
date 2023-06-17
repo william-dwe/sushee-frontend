@@ -1,0 +1,60 @@
+@import '../../../variables.scss';
+
+section.profile {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: auto;
+    background-image: url("https://res.cloudinary.com/dgr6o89ym/image/upload/v1672109205/sources/wallpaperflare.com_wallpaper_wtqler.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $base-grey;
+    background-blend-mode: multiply;
+
+    h1 {
+        padding: 10%;
+        text-align: center;
+        color: $base-white;
+        font-size: 5rem;
+    }
+
+    form.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div.profile {
+            img {
+                max-width: 300px;
+                max-height: 300px;
+                border-radius: 150px;
+            }
+        }
+
+
+        select, input {
+            color:rgb(165, 165, 148);
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    div.coupons {
+        p {
+            background-color: rgba(15, 88, 13, 0.5);
+            border: 1px solid aliceblue;
+            border-radius: 1rem;
+            padding: 1rem;
+            font-size: 2rem;
+            color: white
+        }
+    }
+}

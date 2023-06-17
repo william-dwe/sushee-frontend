@@ -1,0 +1,30 @@
+button.delete-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: red;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    .mdi-delete-empty {
+        display: none;
+    }
+
+    &:hover {
+        .mdi-delete-empty {
+        display: block;
+        color: red;
+        }
+        
+        .mdi-delete {
+        display: none;
+        }
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
